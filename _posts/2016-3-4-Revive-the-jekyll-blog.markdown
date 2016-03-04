@@ -13,7 +13,7 @@ It is especially useful for math presentation and code and graphs. In the class 
 
 Weighted linear combination:
 
-$\hat{V} = \sum_{i=1}^n w_i V_i}$
+$$\hat{V} = \sum_{i=1}^n w_i V_i}$$
 
 
 
@@ -34,9 +34,9 @@ sum(l)
 {% endhighlight r %}
 
 
-### And tables and graphs to continue adding here...
+**And tables and graphs to continue adding here...**
 
-### Also useful for taking notes of useful links...
+**Also useful for taking notes of useful links...**
 
 
 
