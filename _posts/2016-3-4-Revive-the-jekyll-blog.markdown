@@ -13,7 +13,7 @@ It is especially useful for math presentation and code and graphs. In the class 
 
 Weighted linear combination:
 
-$$\hat{V} = \sum_{i=1}^n w_i V_i}$$
+$$ \hat{V} = \sum_{i=1}^n w_i V_i} $$
 
 
 
