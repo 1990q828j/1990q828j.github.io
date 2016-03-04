@@ -108,7 +108,13 @@ f(x,h) = \frac{A x}{1 + B x}\\
 
 <h4 id="code-like-this">Code like this:</h4>
 
-<div class="highlight"><pre><code class="language-r" data-lang="r">v <span class="o">=</span> <span class="m">1</span><span class="o">:</span><span class="m">10</span>
+<div class="highlight"><pre><code class="language-r" data-lang="r"><span class="c1">## Clear the workspace and load package dependencies: </span>
+<span class="kp">rm</span><span class="p">(</span><span class="kt">list</span><span class="o">=</span><span class="kp">ls</span><span class="p">())</span>   
+<span class="kn">require</span><span class="p">(</span>pdgControl<span class="p">)</span>
+<span class="kn">require</span><span class="p">(</span>reshape2<span class="p">)</span>
+<span class="kn">require</span><span class="p">(</span>ggplot2<span class="p">)</span>
+<span class="kn">require</span><span class="p">(</span>data.table<span class="p">)</span>
+v <span class="o">=</span> <span class="m">1</span><span class="o">:</span><span class="m">10</span>
 <span class="kp">mean</span><span class="p">(</span>v<span class="p">)</span>
 <span class="kp">min</span><span class="p">(</span>v<span class="p">)</span>
 <span class="kp">max</span><span class="p">(</span>v<span class="p">)</span>

@@ -33,6 +33,12 @@ $$
 
 #### Code like this:
 {% highlight r %}
+## Clear the workspace and load package dependencies: 
+rm(list=ls())   
+require(pdgControl)
+require(reshape2)
+require(ggplot2)
+require(data.table)
 v = 1:10
 mean(v)
 min(v)
