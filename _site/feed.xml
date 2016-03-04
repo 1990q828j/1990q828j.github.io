@@ -6,9 +6,67 @@
 </description>
     <link>http://1990q828j.github.io/</link>
     <atom:link href="http://1990q828j.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 04 Mar 2016 11:56:36 -0500</pubDate>
-    <lastBuildDate>Fri, 04 Mar 2016 11:56:36 -0500</lastBuildDate>
+    <pubDate>Fri, 04 Mar 2016 16:49:00 -0500</pubDate>
+    <lastBuildDate>Fri, 04 Mar 2016 16:49:00 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Jeklyll for study post - Math and Code</title>
+        <description>&lt;p&gt;Jekyll plus Github Pages can build a powerful personal blog. There is almost one year since I first used it.&lt;/p&gt;
+
+&lt;p&gt;It is especially useful for math presentation and code and graphs. In the class of Geo 597, there are so many proofs and calculations, rules and principles needed to be taken in notes. Review them, or estabilsh the proofs by myself would largely improve the understandings.&lt;/p&gt;
+
+&lt;h4 id=&quot;math-like-this&quot;&gt;Math like this:&lt;/h4&gt;
+
+&lt;p&gt;Weighted linear combination:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% gather means group and center
+\begin{gather}
+\hat{V} = \sum_{i=0}^n w_i V_i\\
+\\
+\mbox{Union: }  A\cup B = \{x\mid x\in A \mbox{ or } x\in B\} \\
+\mbox{Concatenation: }  A\circ B  = \{xy\mid x\in A \mbox{ and } y\in B\} \\
+\mbox{Star: }  A^\star  = \{x_1x_2\ldots x_k \mid  k\geq 0 \mbox{ and each } x_i\in A\} \\
+
+\sin A \cos B = \frac{1}{2}\left[ \sin(A-B)+\sin(A+B) \right] \\
+\sin A \sin B = \frac{1}{2}\left[ \sin(A-B)-\cos(A+B) \right] \\
+\cos A \cos B = \frac{1}{2}\left[ \cos(A-B)+\cos(A+B) \right] \\
+
+\frac{d}{dx}\left( \int_{0}^{x} f(u)\,du\right)=f(x)\\
+f(x,h) = \frac{A x}{1 + B x}\\
+\end{gather}&lt;/script&gt;
+
+&lt;h4 id=&quot;code-like-this&quot;&gt;Code like this:&lt;/h4&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;v &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;10&lt;/span&gt;
+&lt;span class=&quot;kp&quot;&gt;mean&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;v&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;kp&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;v&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;kp&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;v&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;kp&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;v&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+v &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;kp&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;v&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+l &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;TRUE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;FALSE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;FALSE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;TRUE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;kp&quot;&gt;any&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;l&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;kp&quot;&gt;all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;l&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+l &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;TRUE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;FALSE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;FALSE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;TRUE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;kp&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;l&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;And tables and graphs to continue adding here…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Also useful for taking notes of useful links…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;whatever is welcome to be post here!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 04 Mar 2016 13:46:00 -0500</pubDate>
+        <link>http://1990q828j.github.io/jekyll/update/2016/03/04/Revive-the-jekyll-blog.html</link>
+        <guid isPermaLink="true">http://1990q828j.github.io/jekyll/update/2016/03/04/Revive-the-jekyll-blog.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>新博客成立啦-This is my first post in this blog</title>

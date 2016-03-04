@@ -13,9 +13,23 @@ It is especially useful for math presentation and code and graphs. In the class 
 
 Weighted linear combination:
 
-$$ \hat{V} = \sum_{i=1}^n w_i V_i} $$
+$$
+% gather means group and center
+\begin{gather}
+\hat{V} = \sum_{i=0}^n w_i V_i\\
+\\
+\mbox{Union: }  A\cup B = \{x\mid x\in A \mbox{ or } x\in B\} \\
+\mbox{Concatenation: }  A\circ B  = \{xy\mid x\in A \mbox{ and } y\in B\} \\
+\mbox{Star: }  A^\star  = \{x_1x_2\ldots x_k \mid  k\geq 0 \mbox{ and each } x_i\in A\} \\
 
+\sin A \cos B = \frac{1}{2}\left[ \sin(A-B)+\sin(A+B) \right] \\
+\sin A \sin B = \frac{1}{2}\left[ \sin(A-B)-\cos(A+B) \right] \\
+\cos A \cos B = \frac{1}{2}\left[ \cos(A-B)+\cos(A+B) \right] \\
 
+\frac{d}{dx}\left( \int_{0}^{x} f(u)\,du\right)=f(x)\\
+f(x,h) = \frac{A x}{1 + B x}\\
+\end{gather}
+$$
 
 #### Code like this:
 {% highlight r %}

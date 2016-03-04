@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>    
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>Jeklyll for study post - Math and Code</title>
+  <meta name="description" content="Jekyll plus Github Pages can build a powerful personal blog. There is almost one year since I first used it.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://1990q828j.github.io/jekyll/update/2016/03/04/Revive-the-jekyll-blog.html">
+  <link rel="alternate" type="application/atom+xml" title="Qing's blog" href="http://1990q828j.github.io/feed.xml" />
+  <script src="/scripts/jquery-1.11.2.min.js"></script>
+  <script src="/scripts/pithy.js"></script>
+</head>
+
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+  jax: ["input/TeX", "output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [ ['$', '$'] ],
+    displayMath: [ ['$$', '$$']],
+    processEscapes: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  },
+  messageStyle: "none",
+  "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+  });
+  </script>
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+
+  <body>
+    <header class="header">
+	<div class="header-container">
+		<div class="nav">
+			
+				<li>
+					<a href="/index.html">home</a>
+				</li>			
+			
+			
+				<li>
+					<a href="/archive.html">archive</a>
+				</li>			
+			
+			
+				<li>
+					<a href="/category.html">category</a>
+				</li>			
+			
+			
+				<li>
+					<a href="/about.html">about</a>
+				</li>			
+			
+		</div>
+		<div class="description">Scarcity means much </div>		
+		<ul class="social-links">
+			<li>
+				<a href="https://1990q828j.github.io/" title="Github">
+					<img width="19px" height="19px" src="/images/github.png"/>
+				</a>
+			</li>			
+			<li>
+				<a href="https://twitter.com" title="Twitter">
+					<img width="19px" height="19px" src="/images/twitter.png"/>
+				</a>
+			</li>
+		</ul>		
+	</div>
+</header>
+
+    <br>
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+  <br>
+  <header class="post-header">
+    <h1 class="post-title">Jeklyll for study post - Math and Code</h1>
+    <p class="post-meta">Mar 4, 2016</p>
+  </header>
+
+  <article class="post-content">
+    <p>Jekyll plus Github Pages can build a powerful personal blog. There is almost one year since I first used it.</p>
+
+<p>It is especially useful for math presentation and code and graphs. In the class of Geo 597, there are so many proofs and calculations, rules and principles needed to be taken in notes. Review them, or estabilsh the proofs by myself would largely improve the understandings.</p>
+
+<h4 id="math-like-this">Math like this:</h4>
+
+<p>Weighted linear combination:</p>
+
+<script type="math/tex; mode=display">% gather means group and center
+\begin{gather}
+\hat{V} = \sum_{i=0}^n w_i V_i\\
+\\
+\mbox{Union: }  A\cup B = \{x\mid x\in A \mbox{ or } x\in B\} \\
+\mbox{Concatenation: }  A\circ B  = \{xy\mid x\in A \mbox{ and } y\in B\} \\
+\mbox{Star: }  A^\star  = \{x_1x_2\ldots x_k \mid  k\geq 0 \mbox{ and each } x_i\in A\} \\
+
+\sin A \cos B = \frac{1}{2}\left[ \sin(A-B)+\sin(A+B) \right] \\
+\sin A \sin B = \frac{1}{2}\left[ \sin(A-B)-\cos(A+B) \right] \\
+\cos A \cos B = \frac{1}{2}\left[ \cos(A-B)+\cos(A+B) \right] \\
+
+\frac{d}{dx}\left( \int_{0}^{x} f(u)\,du\right)=f(x)\\
+f(x,h) = \frac{A x}{1 + B x}\\
+\end{gather}</script>
+
+<h4 id="code-like-this">Code like this:</h4>
+
+<div class="highlight"><pre><code class="language-r" data-lang="r">v <span class="o">=</span> <span class="m">1</span><span class="o">:</span><span class="m">10</span>
+<span class="kp">mean</span><span class="p">(</span>v<span class="p">)</span>
+<span class="kp">min</span><span class="p">(</span>v<span class="p">)</span>
+<span class="kp">max</span><span class="p">(</span>v<span class="p">)</span>
+<span class="kp">range</span><span class="p">(</span>v<span class="p">)</span>
+v <span class="o">=</span> <span class="kt">c</span><span class="p">(</span><span class="m">4</span><span class="p">,</span><span class="m">2</span><span class="p">,</span><span class="m">3</span><span class="p">,</span><span class="m">9</span><span class="p">,</span><span class="m">1</span><span class="p">)</span>
+<span class="kp">length</span><span class="p">(</span>v<span class="p">)</span>
+l <span class="o">=</span> <span class="kt">c</span><span class="p">(</span><span class="kc">TRUE</span><span class="p">,</span> <span class="kc">FALSE</span><span class="p">,</span> <span class="kc">FALSE</span><span class="p">,</span> <span class="kc">TRUE</span><span class="p">)</span>
+<span class="kp">any</span><span class="p">(</span>l<span class="p">)</span>
+<span class="kp">all</span><span class="p">(</span>l<span class="p">)</span>
+l <span class="o">=</span> <span class="kt">c</span><span class="p">(</span><span class="kc">TRUE</span><span class="p">,</span> <span class="kc">FALSE</span><span class="p">,</span> <span class="kc">FALSE</span><span class="p">,</span> <span class="kc">TRUE</span><span class="p">)</span>
+<span class="kp">sum</span><span class="p">(</span>l<span class="p">)</span></code></pre></div>
+
+<p><strong>And tables and graphs to continue adding here…</strong></p>
+
+<p><strong>Also useful for taking notes of useful links…</strong></p>
+
+<p>whatever is welcome to be post here!</p>
+
+  </article>
+</div>
+
+      </div>
+    </div>
+    
+    <footer class="footer">
+  <div id="gotop">^</div>
+  <br>
+	 @2015 hosted on github powered by <a href="http://jekyllrb.com/">Jekyll</a> theme by jekyll pithy
+</footer>
+
+    
+  </body>
+
+</html>
