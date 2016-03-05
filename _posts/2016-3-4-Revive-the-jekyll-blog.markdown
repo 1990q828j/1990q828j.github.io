@@ -14,6 +14,13 @@ It is especially useful for math presentation and code and graphs. In the class 
 Weighted linear combination:
 
 $$
+\begin{equation}
+\hat{V} = \sum_{i=0}^n w_i V_i\\
+
+\end{equation}
+$$
+
+$$
 % gather means group and center
 \begin{gather}
 \hat{V} = \sum_{i=0}^n w_i V_i\\
