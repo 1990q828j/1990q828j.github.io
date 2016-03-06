@@ -145,7 +145,7 @@ li {
  */
 .well {
 	color: #000;
-	font-family: Monaco,"Courier New",monospace;
+	
 }
 
 .well ul {
@@ -167,7 +167,7 @@ li {
  */
  .category-box {
 	font-weight:bold;
-	font-size: 16px; 	
+	font-size: 16px;    	
  }
 
 
@@ -196,4 +196,9 @@ li {
     background: #515865;
     color: white;
     cursor: pointer;
+}
+
+/* To center images */
+.center {
+    text-align: center;
 }

@@ -263,8 +263,7 @@ li {
  * Artist
  */
 .well {
-  color: #000;
-  font-family: Monaco,"Courier New",monospace; }
+  color: #000; }
 
 .well ul {
   color: #AAA;
@@ -307,6 +306,10 @@ li {
   background: #515865;
   color: white;
   cursor: pointer; }
+
+/* To center images */
+.center {
+  text-align: center; }
 
 /**
  * Syntax highlighting styles
