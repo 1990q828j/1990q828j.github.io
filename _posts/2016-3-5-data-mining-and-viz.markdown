@@ -9,7 +9,7 @@ categories: study
 搜索了知乎上的数据分析大神 Han Hsiao (韩笑？)，找到一些有价值的资源：
 
 * Han 关于[数据科学家](https://www.zhihu.com/question/21592677)的回答里列出了
-[Rice University Data Visualization](http://had.co.nz/stat645/) 从这条资源发现了 Hadley 大神的数据可视化课程 [Rice Stat405](http://had.co.nz/stat405/) 和 [Stat645](http://had.co.nz/stat645/syllabus.html),然后又在 Stat645中找到了辅助资源 [Stanford CS448b](https://graphics.stanford.edu/wikis/cs448b-09-fall)和 [UNCC ITCS4121](http://webpages.uncc.edu/jyang13/infovis2010.html)。<del>~~(子列表用三个连续居中小圆点“···”，在 Mac 上使用 shf + opt + 9打出小圆点)~~</del>, no shortcut in Kramdown for a strikethrough, only use`<del>`and`</del>`, Kramdown语法使用 “ * + - ” 表示列表开头。
+[Rice University Data Visualization](http://had.co.nz/stat645/) 从这条资源发现了 Hadley 大神的数据可视化课程 [Rice Stat405](http://had.co.nz/stat405/) 和 [Stat645](http://had.co.nz/stat645/syllabus.html),然后又在 Stat645中找到了辅助资源 [Stanford CS448b](https://graphics.stanford.edu/wikis/cs448b-09-fall)和 [UNCC ITCS4121](http://webpages.uncc.edu/jyang13/infovis2010.html)。<del>~~(子列表用三个连续居中小圆点“···”，在 Mac 上使用 shf + opt + 9打出小圆点)~~</del>, no shortcut in Kramdown for a strikethrough, only use`<del>`and`</del>`, Kramdown语法使用 `* + - ` 表示列表开头。
 * 顺藤摸瓜，又继续发现了更多数据可视化的资源 [Harvard Stat221](http://harvarddatascience.com/2013/05/05/harvard-stat-221-statistical-computing-and-visualization-all-lectures-online/)和 [Berkeley CS294](http://vis.berkeley.edu/courses/cs294-10-sp11/wiki/index.php/Main_Page)。
 * 另外还有 Mechine Learning 课程 [CMU Sta241b & CS281b](http://alex.smola.org/teaching/berkeley2012/systems.html),以及 CMU 大神 [Alex Smola](http://alex.smola.org/teaching/) 更多机器学习资源 [Intro to ML](http://alex.smola.org/teaching/10-701-15/)。
 
