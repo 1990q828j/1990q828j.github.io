@@ -6,30 +6,31 @@
 </description>
     <link>http://1990q828j.github.io/</link>
     <atom:link href="http://1990q828j.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 05 Mar 2016 23:01:31 -0500</pubDate>
-    <lastBuildDate>Sat, 05 Mar 2016 23:01:31 -0500</lastBuildDate>
+    <pubDate>Sun, 06 Mar 2016 00:06:15 -0500</pubDate>
+    <lastBuildDate>Sun, 06 Mar 2016 00:06:15 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Summary of study</title>
         <description>&lt;p&gt;数据分析，数据分析师(简单的做数据的总结和汇报，report)，数据挖掘，数据工程师(从数据总挖掘出新信息)。
-搜索了知乎上的数据分析大神 Han Hsiao(韩笑？)，找到一些有价值的资源：&lt;/p&gt;
+搜索了知乎上的数据分析大神 Han Hsiao (韩笑？)，找到一些有价值的资源：&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Han关于&lt;a href=&quot;https://www.zhihu.com/question/21592677&quot;&gt;数据科学家&lt;/a&gt;的回答里列出了
-&lt;a href=&quot;http://had.co.nz/stat645/&quot;&gt;Rice University Data Visualization&lt;/a&gt; 从这条资源发现了 Hadley大神的数据可视化课程 &lt;a href=&quot;http://had.co.nz/stat405/&quot;&gt;Rice Stat405&lt;/a&gt;和&lt;a href=&quot;http://had.co.nz/stat645/syllabus.html&quot;&gt;Stat645&lt;/a&gt;,然后又在stat645中找到了辅助资源 &lt;a href=&quot;https://graphics.stanford.edu/wikis/cs448b-09-fall&quot;&gt;Stanford CS448b&lt;/a&gt;和 &lt;a href=&quot;http://webpages.uncc.edu/jyang13/infovis2010.html&quot;&gt;UNCC ITCS4121&lt;/a&gt;。&lt;del&gt;(子列表用三个连续居中小圆点“···”，在Mac上使用 shf + opt + 9打出小圆点)&lt;/del&gt; Kramdown语法使用 “ * + - ” 表示列表开头。&lt;/li&gt;
-  &lt;li&gt;顺藤摸瓜，又继续发现了更多数据可视化的资源 &lt;a href=&quot;http://harvarddatascience.com/2013/05/05/harvard-stat-221-statistical-computing-and-visualization-all-lectures-online/&quot;&gt;Harvard Stat221&lt;/a&gt;和&lt;a href=&quot;http://vis.berkeley.edu/courses/cs294-10-sp11/wiki/index.php/Main_Page&quot;&gt;berkeley CS294&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;另外还有Mechine Learning课程 &lt;a href=&quot;http://alex.smola.org/teaching/berkeley2012/systems.html&quot;&gt;CMU Sta241b &amp;amp; CS281b&lt;/a&gt;,以及CMU大神&lt;a href=&quot;http://alex.smola.org/teaching/&quot;&gt;Alex Smola&lt;/a&gt;更多机器学习资源&lt;a href=&quot;http://alex.smola.org/teaching/10-701-15/&quot;&gt;Intro to ML&lt;/a&gt;。&lt;/li&gt;
+  &lt;li&gt;Han 关于&lt;a href=&quot;https://www.zhihu.com/question/21592677&quot;&gt;数据科学家&lt;/a&gt;的回答里列出了
+&lt;a href=&quot;http://had.co.nz/stat645/&quot;&gt;Rice University Data Visualization&lt;/a&gt; 从这条资源发现了 Hadley 大神的数据可视化课程 &lt;a href=&quot;http://had.co.nz/stat405/&quot;&gt;Rice Stat405&lt;/a&gt; 和 &lt;a href=&quot;http://had.co.nz/stat645/syllabus.html&quot;&gt;Stat645&lt;/a&gt;,然后又在 Stat645中找到了辅助资源 &lt;a href=&quot;https://graphics.stanford.edu/wikis/cs448b-09-fall&quot;&gt;Stanford CS448b&lt;/a&gt;和 &lt;a href=&quot;http://webpages.uncc.edu/jyang13/infovis2010.html&quot;&gt;UNCC ITCS4121&lt;/a&gt;。&lt;del&gt;&lt;del&gt;(子列表用三个连续居中小圆点“···”，在 Mac 上使用 shf + opt + 9打出小圆点)&lt;/del&gt;&lt;/del&gt;, no shortcut in Kramdown for a strikethrough, only use&lt;code&gt;&amp;lt;del&amp;gt;&lt;/code&gt;and&lt;code&gt;&amp;lt;/del&amp;gt;&lt;/code&gt;, Kramdown语法使用 “ * + - ” 表示列表开头。&lt;/li&gt;
+  &lt;li&gt;顺藤摸瓜，又继续发现了更多数据可视化的资源 &lt;a href=&quot;http://harvarddatascience.com/2013/05/05/harvard-stat-221-statistical-computing-and-visualization-all-lectures-online/&quot;&gt;Harvard Stat221&lt;/a&gt;和 &lt;a href=&quot;http://vis.berkeley.edu/courses/cs294-10-sp11/wiki/index.php/Main_Page&quot;&gt;Berkeley CS294&lt;/a&gt;。&lt;/li&gt;
+  &lt;li&gt;另外还有 Mechine Learning 课程 &lt;a href=&quot;http://alex.smola.org/teaching/berkeley2012/systems.html&quot;&gt;CMU Sta241b &amp;amp; CS281b&lt;/a&gt;,以及 CMU 大神 &lt;a href=&quot;http://alex.smola.org/teaching/&quot;&gt;Alex Smola&lt;/a&gt; 更多机器学习资源 &lt;a href=&quot;http://alex.smola.org/teaching/10-701-15/&quot;&gt;Intro to ML&lt;/a&gt;。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p class=&quot;center&quot;&gt;&lt;img src=&quot;https://pic3.zhimg.com/e0564c41744a3ea5da7ba8242b6d3f5e_b.jpg&quot; alt=&quot;data scientist&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;center&quot;&gt;&lt;img src=&quot;/images/data_scientist.jpg&quot; alt=&quot;data scientist&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;因此对Han Hsiao大神产生好奇，为什么知乎上显示是在长沙的他却掌握了如此多的好资源，扒了一扒，凭借名字没找到任何有用信息，然后扒知乎发现了是中南11级工科生，再上linkedin扒，还是没找到匹配的，用了一个小时也没找到，只能放弃，不过最后通过知乎上的关注内容确定他肯定在美国学习过或者正在学习，应该是在读phd或者已毕业工作。在有限时间内无法找到解决方案，此时放弃应该算是更明智的方式。人肉扒扒扒能力有待精进。。。&lt;/p&gt;
+&lt;p&gt;因此对 Han Hsiao 大神产生好奇，为什么知乎上显示是在长沙的他却掌握了如此多的好资源，扒了一扒，凭借名字没找到任何有用信息，然后扒知乎发现了是中南11级工科生，再上 linkedin 扒，还是没找到匹配的，用了一个小时也没找到，只能放弃，不过最后通过知乎上的关注内容确定他肯定在美国学习过或者正在学习，应该是在读phd或者已毕业工作。在有限时间内无法找到解决方案，此时放弃应该算是更明智的方式。人肉扒扒扒能力有待精进。。。&lt;/p&gt;
 
-&lt;p&gt;kaggle是个好地方，学习实战技术，不仅需要理论知识，同时需要对问题进行抽象建模，模型选择和有效性验证的能力。每个人对数据的探索方法开始注意力就不一定相同，解决的方案更是千差万别，只要最后的衡量标准一致，就能以各自的路径靠近理想结果。同时还在kaggle上发现一个问题，对于空间数据的分析和可视化大部分人没有GIS的专业解决能力，比如：&lt;a href=&quot;https://www.kaggle.com/c/sf-crime/data&quot;&gt;旧金山犯罪数据的分析&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;kaggle 是个好地方，学习实战技术，不仅需要理论知识，同时需要对问题进行抽象建模，模型选择和有效性验证的能力。每个人对数据的探索方法开始注意力就不一定相同，解决的方案更是千差万别，只要最后的衡量标准一致，就能以各自的路径靠近理想结果。同时还在 kaggle 上发现一个问题，对于空间数据的分析和可视化大部分人没有 GIS 的专业解决能力，比如：&lt;a href=&quot;https://www.kaggle.com/c/sf-crime/data&quot;&gt;旧金山犯罪数据的分析&lt;/a&gt;。&lt;/p&gt;
 
 &lt;h4 id=&quot;useful&quot;&gt;Useful:&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&quot;http://kramdown.gettalong.org/syntax.html&quot;&gt;Kramdown Syntax&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://kramdown.gettalong.org/syntax.html&quot;&gt;Kramdown Syntax&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://help.github.com/articles/basic-writing-and-formatting-syntax/&quot;&gt;Github Preferred Format&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 05 Mar 2016 22:13:00 -0500</pubDate>
