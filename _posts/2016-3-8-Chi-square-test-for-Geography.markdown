@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Summary of study
+title:  Thesis ideas
 date:	2016-3-8 20:22
 categories: study
 ---
