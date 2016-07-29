@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  信息成瘾
-date:	2016-7-28 22：05
+date:	2016-7-28 22:05
 categories: Thinking
 ---
 
